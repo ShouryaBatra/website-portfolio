@@ -39,13 +39,13 @@ function Hero() {
         </h1>
         <h2>Fullstack developer</h2>
         <span>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/shouryabatra/" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://instagram.com/" target="_blank">
+          <a href="https://instagram.com/shouryabatra_/" target="_blank">
             <img src={instagramIcon} alt="Instagram icon" />
           </a>
-          <a href="https://youtube.com/" target="_blank">
+          <a href="https://youtube.com/@shobarthehe/" target="_blank">
             <img src={youtubeIcon} alt="Youtube icon" />
           </a>
         </span>
