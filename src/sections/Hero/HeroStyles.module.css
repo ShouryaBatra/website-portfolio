@@ -30,7 +30,7 @@
     align-self: center;
   }
 
-  /* button {
+  button {
     background-color: var(--btn-color);
     color: var(--btn-text-color);
     border: none;
@@ -39,7 +39,7 @@
     height: 50px;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   }
 
@@ -49,8 +49,8 @@
 
   button:active {
     transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
-  } */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .colorModeContainer {
@@ -64,19 +64,18 @@
 }
 
 .colorMode:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .description {
-    max-width: 24ch;
-    align-self: center;
+  max-width: 24ch;
+  align-self: center;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (width >= 800px) {
@@ -86,8 +85,8 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 300px;
-      width: 300px;
+      max-width: 350px;
+      width: 350px;
     }
   }
 }
@@ -95,8 +94,8 @@
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 400px;
+      width: 400px;
     }
   }
 }
