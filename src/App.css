@@ -2,7 +2,7 @@
   background-color: var(--background-color);
   --btn-color: #0987f2;
   --btn-text-color: #fff;
-  --project-card-bg: #fff;
+  --project-card-bg: #222;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
@@ -17,6 +17,12 @@
   --form-text-color: #fff;
   --footer-text-color: #bbb;
 }
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 body {
   background-color: var(--background-color);

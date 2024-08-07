@@ -1,15 +1,31 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
+import reactEssentialsImg from "../../assets/react-core-concepts-logo.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-        <a href="https://shouryabatra.github.io/fireworks/">
-          <img className="hover" src={viberr} alt="Logo" />
-        </a>
+        <ProjectCard
+          image={reactEssentialsImg}
+          link="https://shouryabatra.github.io/React-Essentials/"
+          h3="React Essentials"
+          description="Web App I made while learning React"
+        />
+        <ProjectCard
+          image={reactEssentialsImg}
+          link="https://shouryabatra.github.io/fireworks/"
+          h3="Fireworks Animation"
+          description="Animation I made using Javascript"
+        />
+        <ProjectCard
+          image={reactEssentialsImg}
+          link="https://shouryabatra.github.io/React-Essentials/"
+          h3="React Essentials"
+          description="Web App I made while learning React"
+        />
       </div>
     </section>
   );
