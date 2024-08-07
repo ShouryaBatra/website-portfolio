@@ -69,7 +69,7 @@
 
 .description {
     max-width: 24ch;
-    /* align-self: center; */
+    align-self: center;
 }
 
 .info {
@@ -77,4 +77,26 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .hero {
+      max-width: 300px;
+      width: 300px;
+    }
+  }
+}
+
+@media (width >= 1400px) {
+  .container {
+    .hero {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
 }
