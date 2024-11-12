@@ -16,7 +16,7 @@ function Projects() {
         />
         <ProjectCard
           image={reactEssentialsImg}
-          link="https://shouryabatra.github.io/React-Essentials/"
+          link="https://shouryabatra.github.io/react-essentials/"
           h3="React Essentials"
           description="Web App I made while learning React"
         />
